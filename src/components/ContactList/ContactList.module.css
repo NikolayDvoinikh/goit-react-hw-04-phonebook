@@ -1,0 +1,32 @@
+.listContacts {
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 500;
+  padding: 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.text {
+  text-align: center;
+}
+
+.btnDelete {
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.btnDelete:active {
+  background-color: aqua;
+  scale: 0.9;
+  transition: 100ms;
+}
