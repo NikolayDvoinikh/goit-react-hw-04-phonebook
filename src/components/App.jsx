@@ -31,7 +31,7 @@ export const App = () => {
     ) {
       return alert(`${name} is already in contacts`);
     }
-    setContact([...contacts, contact]);
+    setContact(prevContacts => [contact, ...prevContacts]);
   };
 
   const filterByName = () => {
